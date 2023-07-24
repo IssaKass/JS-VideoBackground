@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Background</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div id="preloader" class="preloader">
+      <div class="load"></div>
+    </div>
+    <!-- video -->
+    <section class="video-container">
+      <video class="video" id="video" autoplay loop muted>
+        <source src="video.mp4" />
+      </video>
+    </section>
+    <!-- switch (play/pause) button -->
+    <button id="switch-btn" class="switch-btn">
+      <span>Play</span>
+      <span>Pause</span>
+    </button>
+    <script src="app.js"></script>
+  </body>
+</html>
